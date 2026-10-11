@@ -1,0 +1,25 @@
+config.py
+__pycache__/
+*.pyc
+.spyproject/
+.env 
+
+
+# Keep API keys private
+.env
+.env.*
+!.env.example
+config.py
+**/config.py
+
+# Ignore unnecessary folders
+node_modules/
+.next/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Ignore local databases
+*.db  
+
